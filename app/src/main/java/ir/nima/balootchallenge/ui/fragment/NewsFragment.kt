@@ -40,12 +40,8 @@ class NewsFragment : BaseFragment(R.layout.fragment_news), NewsAdapter.onClick {
             }
         }else{
             viewModel.getAll()
-            viewModel.getDataFromDb?.observe(viewLifecycleOwner){
+            viewModel.getDataFromDb.observe(viewLifecycleOwner){
                 binding.recyclerview.adapter = offlineAdapter
-                binding.recyclerview.adapter = adapter.withLoadStateHeaderAndFooter(
-                    header = StateLoaderAdapter { adapter.retry() },
-                    footer = StateLoaderAdapter { adapter.retry() }
-                )
                 offlineAdapter.submitList(it)
             }
         }
