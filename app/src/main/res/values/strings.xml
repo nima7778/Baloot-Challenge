@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Baloot company Challenge</string>
+    <string name="unknown_error">Unknown error!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_name">نیما عابدینی</string>
+    <string name="github">https://github.com/nima7778</string>
+    <string name="linkedin">www.linkedin.com/in/nima-a-15361a1bb</string>
+    <string name="about_me">About Me</string>
+    <string name="about_me_description">Graduated from Damghan University in the field of computer science and Android developer with 2 years of experience.</string>
+    <string name="all_news">All</string>
+    <string name="profile">Profile</string>
+    <string name="results_could_not_be_loaded">Resource could not be loaded.</string>
+    <string name="detail">Detail</string>
+</resources>
